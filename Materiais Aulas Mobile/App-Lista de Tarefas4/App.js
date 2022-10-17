@@ -6,8 +6,6 @@ import { AntDesign } from '@expo/vector-icons';
 
 export default function App() {
 
-  //const image = require('./resources/images/notepad.png');
-
   const [tarefas, setTarefas] = useState([
     {
       id: 1,

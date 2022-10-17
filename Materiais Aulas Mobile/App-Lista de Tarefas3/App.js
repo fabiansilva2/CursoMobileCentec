@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, ImageBackground, TouchableOpacity, ScrollView } from 'react-native';
-import image from './resources/images/notepad.png';
+import image from './assets/splash.png';
 import { AntDesign } from '@expo/vector-icons';
 
 export default function App() {
-
-  //const image = require('./resources/images/notepad.png');
 
   const [tarefas, setTarefas] = useState([
     {
@@ -23,6 +21,12 @@ export default function App() {
     {
       id: 3,
       tarefa: 'Minha Tarefa 3'
+
+    },
+
+    {
+      id: 4,
+      tarefa: 'Minha Tarefa 4'
 
     }
 

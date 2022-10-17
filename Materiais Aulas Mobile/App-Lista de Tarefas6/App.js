@@ -32,7 +32,6 @@ export default function App() {
 
   const [tarefaAtual, setTarefaAtual] = useState('');
 
-
   function deletarTarefa(id) {
     alert('Tarefa ' + id + ' Deletada');
 

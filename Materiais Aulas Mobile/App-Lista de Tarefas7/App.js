@@ -7,8 +7,6 @@ import { AsyncStorage } from 'react-native';
 
 export default function App() {
 
-  //const image = require('./resources/images/notepad.png');
-
   console.disableYellowBox = true; // Serve para retirar as mensagens de aviso que não impedem a aplicação de funcionanr;
 
   const [tarefas, setTarefas] = useState([]);
